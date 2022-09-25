@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 def lerp(v0, v1, t):
     return (1 - t) * v0 + t * v1
 
-size = 1
+size = 100
 f1 = float (0.5 / size)
 image = np.zeros((size, size, 3), dtype="uint8")
 assert image.shape[0] == image.shape[1]
